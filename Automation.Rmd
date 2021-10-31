@@ -2,7 +2,10 @@
 title: "Automating Multiple Plot in R"
 author: "Oyedele Oluwafemi"
 date: "31/10/2021"
-output: html_document
+output: 
+    cleanrmd::html_document_clean:
+    theme: NULL
+    toc: true 
 ---
 
 ```{r setup, include=FALSE}
